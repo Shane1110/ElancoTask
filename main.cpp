@@ -18,7 +18,7 @@ struct AllData {
 	std::string resourceGroup;
 	std::string resourceLocation;
 
-	std::map<std::string, std::string> tags; // Map structure passes two strings for the tag categorie and the entry
+	std::map<std::string, std::string> tags; // Map structure passes two strings for the tag category and the entry
 											 // e.g. 'app-name:' and 'Macao', 'environment:' and 'Test' etc.
 
 	std::string unitOfMeasure;
